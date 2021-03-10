@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   '@testing-library/jest-dom',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly mapToRegistry name @testing-library/jest-dom
+5 silly mapToRegistry scope (from package name) @testing-library
+6 verbose mapToRegistry no registry URL found in name for scope @testing-library
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry uri https://registry.npmjs.org/@testing-library%2fjest-dom
+10 verbose request uri https://registry.npmjs.org/@testing-library%2fjest-dom
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 10:31:01 PM
+13 verbose request id dfdf39f39a458748
+14 verbose etag W/"c93ee41d9b346c589316b631b81267cc"
+15 verbose lastModified Mon, 01 Mar 2021 18:44:05 GMT
+16 http request GET https://registry.npmjs.org/@testing-library%2fjest-dom
+17 http 304 https://registry.npmjs.org/@testing-library%2fjest-dom
+18 verbose headers { date: 'Mon, 01 Mar 2021 21:31:02 GMT',
+18 verbose headers   connection: 'keep-alive',
+18 verbose headers   'set-cookie':
+18 verbose headers    [ '__cfduid=d6f1313d715d842664f75f0baab1986eb1614634262; expires=Wed, 31-Mar-21 21:31:02 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+18 verbose headers   'cf-ray': '62957d6e6d6d1002-MRS',
+18 verbose headers   age: '1446',
+18 verbose headers   'cache-control': 'public, max-age=300',
+18 verbose headers   etag: '"c93ee41d9b346c589316b631b81267cc"',
+18 verbose headers   'last-modified': 'Mon, 01 Mar 2021 18:44:05 GMT',
+18 verbose headers   vary: 'Accept-Encoding',
+18 verbose headers   'cf-cache-status': 'HIT',
+18 verbose headers   'cf-request-id': '08914cb90500001002d4a58000000001',
+18 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+18 verbose headers   server: 'cloudflare' }
+19 silly get cb [ 304,
+19 silly get   { date: 'Mon, 01 Mar 2021 21:31:02 GMT',
+19 silly get     connection: 'keep-alive',
+19 silly get     'set-cookie':
+19 silly get      [ '__cfduid=d6f1313d715d842664f75f0baab1986eb1614634262; expires=Wed, 31-Mar-21 21:31:02 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+19 silly get     'cf-ray': '62957d6e6d6d1002-MRS',
+19 silly get     age: '1446',
+19 silly get     'cache-control': 'public, max-age=300',
+19 silly get     etag: '"c93ee41d9b346c589316b631b81267cc"',
+19 silly get     'last-modified': 'Mon, 01 Mar 2021 18:44:05 GMT',
+19 silly get     vary: 'Accept-Encoding',
+19 silly get     'cf-cache-status': 'HIT',
+19 silly get     'cf-request-id': '08914cb90500001002d4a58000000001',
+19 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 silly get     server: 'cloudflare' } ]
+20 verbose etag https://registry.npmjs.org/@testing-library%2fjest-dom from cache
+21 verbose get saving @testing-library/jest-dom to /home/fatma/.npm/registry.npmjs.org/_40testing-library_252fjest-dom/.cache.json
+22 verbose exit [ 0, true ]
+23 verbose stack Error: write EPIPE
+23 verbose stack     at _errnoException (util.js:1022:11)
+23 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+24 verbose cwd /home/fatma/Desktop/food-searching-app-master
+25 error Linux 5.4.0-65-generic
+26 error argv "/usr/bin/node" "/usr/bin/npm" "view" "--json" "@testing-library/jest-dom" "description" "dist-tags.latest" "homepage" "version"
+27 error node v8.10.0
+28 error npm  v3.5.2
+29 error code EPIPE
+30 error errno EPIPE
+31 error syscall write
+32 error write EPIPE
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]
